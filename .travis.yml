@@ -1,6 +1,8 @@
 language: python
 python:
   - '3.4'
+services:
+  - elasticsearch
 install:
   - travis_retry python setup.py install
   - travis_retry pip install -r requirements-dev.txt
