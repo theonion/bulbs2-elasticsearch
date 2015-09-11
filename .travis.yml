@@ -1,0 +1,9 @@
+language: python
+python:
+  - '3.4'
+install:
+  - travis_retry python setup.py install
+  - travis_retry pip install -r requirements-dev.txt
+script:
+  - py.test tests/
+sudo: false
