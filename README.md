@@ -26,6 +26,12 @@ it to the PyPI index.
 
 ## Testing the Code
 
+You will need a local elasticsearch database running in a separate terminal:
+
+```bash
+$ elasticsearch
+```
+
 To run the tests, clone the repository from GitHub (see steps above). You should then create a virtual environment with 
 Python 3 and install the project to that:
 
@@ -37,6 +43,13 @@ $ cd /path/to/bulbs2-elasticsearch
 $ python setup.py install
 $ pip install -r requirements-dev.txt
 $ py.test tests
+```
+
+If you don't have Elasticsearch on your system, you can _brew_ install it:
+
+```bash
+$ brew install elasticsearch
+$ brew linkapps
 ```
 
 If you don't have Python 3 on your system, you can _brew_ install it:
