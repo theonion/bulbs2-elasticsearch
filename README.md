@@ -1,4 +1,4 @@
-# bulbs2-elasticsearch
+# bulbs2-elasticsearch [![Build Status](https://travis-ci.org/theonion/bulbs2-elasticsearch.svg?branch=master)](https://travis-ci.org/theonion/bulbs2-elasticsearch)
 
 > your search is over
 
